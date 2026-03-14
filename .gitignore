@@ -4,3 +4,9 @@ __pycache__/
 *.pyc
 .env
 .vscode/
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform.tfvars
+trust-policy.json
+github-actions-permissions.json

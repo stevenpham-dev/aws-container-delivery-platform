@@ -1,0 +1,11 @@
+aws_region          = "us-west-2"
+project_name        = "acdp"
+environment         = "dev"
+cluster_name        = "aws-container-platform-eks"
+kubernetes_version  = "1.33"
+ecr_repository_name = "aws-container-delivery-platform-api"
+
+node_instance_type = "t3.medium"
+node_min_size      = 1
+node_desired_size  = 1
+node_max_size      = 2
