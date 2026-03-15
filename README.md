@@ -6,10 +6,6 @@ This project demonstrates an end-to-end cloud deployment workflow: building a co
 
 ---
 
-![Terraform Initialization](docs/screenshots/step-05-terraform-init-success.png)
-![Public endpoint on EKS](docs/screenshots/step-06-all-endpoints.png)
-
----
 ## Project Overview
 
 The goal of this project was to simulate a realistic DevOps deployment pipeline rather than just run a container locally.
@@ -107,6 +103,10 @@ aws-container-delivery-platform
 │   └── screenshots
 └── README.md
 ```
+---
+
+![Terraform Initialization](docs/screenshots/step-05-terraform-init-success.png)
+![Public endpoint on EKS](docs/screenshots/step-06-all-endpoints.png)
 
 ---
 
