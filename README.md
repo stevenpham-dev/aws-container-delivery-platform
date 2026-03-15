@@ -1,11 +1,18 @@
 # AWS Container Delivery Platform
 
-> Production-style container platform built on AWS using **FastAPI, Docker, Terraform, Amazon EKS, Kubernetes, and GitHub Actions**.
+Production-style container platform built on **AWS, Terraform, Docker, Amazon EKS, Kubernetes, and GitHub Actions**.
 
-This project demonstrates an end-to-end cloud deployment workflow: building a containerized API, pushing it to Amazon ECR, provisioning infrastructure with Terraform, deploying to Amazon EKS, enabling autoscaling, automating delivery with CI/CD, and troubleshooting real infrastructure issues along the way.
+This project demonstrates an end-to-end container delivery workflow: I built a FastAPI application, containerized it with Docker, pushed the image to Amazon ECR, provisioned the AWS environment with Terraform, deployed the workload to Amazon EKS, enabled Horizontal Pod Autoscaling, and automated delivery with GitHub Actions CI/CD.
 
----
+It also includes real infrastructure troubleshooting. During cluster bring-up, I diagnosed and fixed an EKS worker node initialization failure caused by networking addon timing, then later completed a cost-conscious teardown after final validation.
 
+**Key highlights**
+- FastAPI + Docker + Amazon ECR
+- Terraform-provisioned VPC and Amazon EKS
+- Kubernetes Deployment, LoadBalancer Service, and HPA
+- GitHub Actions CI/CD
+- Real-world debugging and teardown
+  
 ## Project Overview
 
 The goal of this project was to simulate a realistic DevOps deployment pipeline rather than just run a container locally.
