@@ -103,10 +103,6 @@ aws-container-delivery-platform
 │   └── screenshots
 └── README.md
 ```
----
-
-![Terraform Initialization](docs/screenshots/step-05-terraform-init-success.png)
-![Public endpoint on EKS](docs/screenshots/step-06-all-endpoints.png)
 
 ---
 
@@ -230,6 +226,11 @@ They document:
 - GitHub Actions CI/CD
 - final validation
 - infrastructure teardown
+
+---
+
+![Terraform Initialization](docs/screenshots/step-05-terraform-init-success.png)
+![Public endpoint on EKS](docs/screenshots/step-06-all-endpoints.png)
 
 ---
 
