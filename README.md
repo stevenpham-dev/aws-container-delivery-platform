@@ -77,6 +77,13 @@ High-level workflow:
 
 ---
 
+## Featured Screenshots
+
+### Public endpoint running from EKS
+![Public endpoint on EKS](docs/screenshots/step-06-root-endpoint.png)
+
+### GitHub Actions deployment success
+![GitHub Actions CI/CD success](docs/screenshots/step-08-github-actions-run-success.png)
 ## Repository Structure
 
 ```text
@@ -233,11 +240,6 @@ They document:
 - GitHub Actions CI/CD
 - final validation
 - infrastructure teardown
-
----
-
-![Terraform Initialization](docs/screenshots/step-05-terraform-init-success.png)
-![Public endpoint on EKS](docs/screenshots/step-06-all-endpoints.png)
 
 ---
 
