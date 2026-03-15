@@ -77,6 +77,10 @@ High-level workflow:
 
 ---
 
+## Architecture Diagram
+
+![AWS Container Delivery Platform Architecture](docs/screenshots/aws-container-delivery-platform-architecture.png)
+
 ## Featured Screenshots
 
 ### Public endpoint running from EKS
